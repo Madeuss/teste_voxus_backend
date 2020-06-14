@@ -20,4 +20,8 @@ app.use(cors());
 app.use(express.json());
 app.use(routes);
 
-app.listen(3333);
+const PORT = process.env.PORT || 3001;
+
+app.listen(PORT, () => {
+  console.log(`App listening on port ${PORT}!`);
+});
