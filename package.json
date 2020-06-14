@@ -12,9 +12,16 @@
     "nodemon": "^2.0.4"
   },
   "dependencies": {
+    "convert-excel-to-json": "^1.7.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "knex": "^0.21.1",
-    "sqlite3": "https://github.com/mapbox/node-sqlite3/tarball/master"
+    "multer": "^1.4.2",
+    "node-excel-to-json": "^0.0.3",
+    "sqlite3": "https://github.com/mapbox/node-sqlite3/tarball/master",
+    "xls-to-json": "^0.5.4",
+    "xls-to-json-lc": "^0.3.4",
+    "xlsx-to-json": "^0.3.0",
+    "xlsx-to-json-lc": "^0.5.0"
   }
 }
